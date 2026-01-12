@@ -4,37 +4,37 @@ This repository accompanies the PRISMA dataset published on OpenNeuro under acce
 
 ### Structure
 
-preprocessing/                        # Data preparation pipeline 
-  1_calculate_behavioural_scores.py   # AQ-50, SDQ, WAIS-IV and ARSQ questionnaires
-  2_parrec_to_bids.py                 # DICOM→BIDS with NORDIC denoising
-  3_anonymise_bids.py                 # Remove identifying information
-  4_deface_anatomical.py              # Deface T1w images
-  5_run_mriqc.py                      # MRI quality control
-  6_run_fmriprep.py                   # fMRI preprocessing
-  7_run_xcpd.py                       # XCP-D post-processing
-  8_run_qsiprep.py                    # DWI preprocessing
-  9_run_qsirecon.py                   # DWI reconstruction
+`preprocessing/`                           Data preparation pipeline 
+ -  `1_calculate_behavioural_scores.py`    AQ-50, SDQ, WAIS-IV and ARSQ questionnaires
+ -  `2_parrec_to_bids.py`                  DICOM→BIDS with NORDIC denoising
+ -  `3_anonymise_bids.py`                  Remove identifying information
+ -  `4_deface_anatomical.py`               Deface T1w images
+ -  `5_run_mriqc.py`                       MRI quality control
+ -  `6_run_fmriprep.py`                    fMRI preprocessing
+ -  `7_run_xcpd.py`                        XCP-D post-processing
+ -  `8_run_qsiprep.py`                     DWI preprocessing
+ -  `9_run_qsirecon.py`                    DWI reconstruction
 
-quality_control/                      # QC visualization and metrics
-  1_mriqc_stats                       # T1w, T2w, DWI and fMRI image quality metrics
-  2_behavior_stats.py                 # Behavioral and demographic data metrics
-  3_calculate_tsnr.py                 # fMRI quality metrics
+`quality_control/`                         QC visualization and metrics
+ -  `1_mriqc_stats`                        T1w, T2w, DWI and fMRI image quality metrics
+ -  `2_behavior_stats.py`                  Behavioral and demographic data metrics
+ -  `3_calculate_tsnr.py`                  fMRI quality metrics
 
-dwi/                                  # DWI data
-  1_qc_maps.py                        # Group-level DWI quality maps
-  2_plot_connectome.py                # Visualize DWI connectomes
+`dwi/`                                       DWI data
+ -  `1_qc_maps.py`                         Group-level DWI quality maps
+ -  `2_plot_connectome.py`                 Visualize DWI connectomes
 
-rsfMRI/                               # rs-fMRI data
-  1_func_average_connectomes.py       # Visualize fMRI connectomes
+`rsfMRI/`                                    rs-fMRI data
+ -  `1_func_average_connectomes.py`        Visualize fMRI connectomes
   
-isc/                                  # Inter-subject correlation of fMRI data
-  1_isc_calculate_averages.py         # Inter-subject correlation analysis
-  2_isc_plot_surface.py               # Visualize ISC results
+`isc/`                                       Inter-subject correlation of fMRI data
+ -  `1_isc_calculate_averages.py`          Inter-subject correlation analysis
+ -  `2_isc_plot_surface.py`                Visualize ISC results
   
-physio/                               # Physiological data
-  1_physio_qc.py                      # Physiological signal QC (PPG, respiration)
-  2_physio_regressors.py              # HRV/RVT regressors
-  3_physio_glm.py                     # GLM analysis of physiological regressors
+`physio/`                                    Physiological data
+ -  `1_physio_qc.py`                       Physiological signal QC (PPG, respiration)
+ -  `2_physio_regressors.py`               HRV/RVT regressors
+ -  `3_physio_glm.py`                      GLM analysis of physiological regressors
 
 ### Dependencies
 
