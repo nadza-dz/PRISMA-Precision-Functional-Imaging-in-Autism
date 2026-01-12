@@ -20,18 +20,21 @@ quality_control/                      # QC visualization and metrics
   2_behavior_stats.py                 # Behavioral and demographic data metrics
   3_calculate_tsnr.py                 # fMRI quality metrics
 
-dwi/                                  # DWI
+dwi/                                  # DWI data
   1_qc_maps.py                        # Group-level DWI quality maps
   2_plot_connectome.py                # Visualize DWI connectomes
 
-isc/                                  # Inter-subject correlation
+rsfMRI/                               # rs-fMRI data
+  1_func_average_connectomes.py       # Visualize fMRI connectomes
+  
+isc/                                  # Inter-subject correlation of fMRI data
   1_isc_calculate_averages.py         # Inter-subject correlation analysis
   2_isc_plot_surface.py               # Visualize ISC results
-  3_
-
-run_physio_qc.py                      # Physiological signal QC (PPG, respiration)
-calculate_physio_regressors.py        # HRV/RVT regressors and GLM analysis
-```
+  
+physio/                               # Physiological data
+  1_physio_qc.py                      # Physiological signal QC (PPG, respiration)
+  2_physio_regressors.py              # HRV/RVT regressors
+  3_physio_glm.py                     # GLM analysis of physiological regressors
 
 # Dependencies
 
