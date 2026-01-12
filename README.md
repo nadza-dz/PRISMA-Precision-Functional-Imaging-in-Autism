@@ -13,7 +13,6 @@ This repository accompanies the PRISMA dataset published on OpenNeuro under acce
 This work was supported by the Dutch Research Council (NWO) grant No. 406.XS.24.01.007.
 
 # Authors
-Joe Bathelt
-Nadza Dzinalija
+Joe Bathelt and Nadza Dzinalija
 
 To get in touch, please email j.m.c.bathelt@uva.nl or n.dzinalija@uva.nl.
