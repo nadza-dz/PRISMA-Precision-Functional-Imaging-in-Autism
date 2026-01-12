@@ -20,11 +20,11 @@ This repository accompanies the PRISMA dataset published on OpenNeuro under acce
  -  `2_behavior_stats.py`                  Behavioral and demographic data metrics
  -  `3_calculate_tsnr.py`                  fMRI quality metrics
 
-`dwi/`                                     DWI data
+`dwi/`                                     Diffusion-weighted imaging data
  -  `1_qc_maps.py`                         Group-level DWI quality maps
  -  `2_plot_connectome.py`                 Visualize DWI connectomes
 
-`rsfMRI/`                                  rs-fMRI data
+`rsfMRI/`                                  resting state fMRI data
  -  `1_func_average_connectomes.py`        Visualize fMRI connectomes
  -  `2_isc_calculate_averages.py`          Inter-subject correlation analysis
  -  `3_isc_plot_surface.py`                Visualize ISC results
