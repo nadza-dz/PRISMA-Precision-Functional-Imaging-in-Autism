@@ -52,5 +52,9 @@ To get in touch, please email j.m.c.bathelt@uva.nl or n.dzinalija@uva.nl.
 
 ### References
 
-- Preprint: Dzinalija, N., Geurts, H. M., Scholte, H. S., & Bathelt, J. (2026). PRISMA: A precision functional imaging dataset of autistic and non-autistic adults. bioRxiv, 2026.01.12.698952. https://doi.org/10.64898/2026.01.12.698952
+- [Preprint on BioRxiv.org](https://doi.org/10.64898/2026.01.12.698952)
+```
+Dzinalija, N., Geurts, H. M., Scholte, H. S., & Bathelt, J. (2026). PRISMA: A precision functional imaging dataset of autistic and non-autistic adults. bioRxiv, 2026.01.12.698952. https://doi.org/10.64898/2026.01.12.698952
+```
+
 - [Dataset on OpenNeuro.org](https://openneuro.org/datasets/ds007182/versions/1.0.0)
