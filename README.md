@@ -39,6 +39,7 @@ This repository accompanies the PRISMA dataset published on OpenNeuro under acce
 - Python 3.10+
 - fMRIPrep, XCP-D, QSIPrep, MRIQC (via Docker)
 - nilearn, neurokit2, nibabel, pandas, numpy
+- See `environment.yml` file for all dependencies and packages
 
 ### Acknowledgements 
 
