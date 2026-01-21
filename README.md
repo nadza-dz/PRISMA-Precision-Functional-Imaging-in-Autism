@@ -19,15 +19,19 @@ This repository accompanies the PRISMA dataset published on OpenNeuro under acce
  -  `1_mriqc_stats`                        T1w, T2w, DWI and fMRI image quality metrics
  -  `2_behavior_stats.py`                  Behavioral and demographic data metrics
  -  `3_calculate_tsnr.py`                  fMRI quality metrics
+ -  `4_extract_freesurfer_qc.py`           FreeSurfer quality metrics
+ -  `5_freesurfer_plot.py`                 FreeSurfer cortical and subcortical visualization
 
 `dwi/`                                     Diffusion-weighted imaging data
  -  `1_qc_maps.py`                         Group-level DWI quality maps
  -  `2_plot_connectome.py`                 Visualize DWI connectomes
+ -  `3_extract_descriptives.py`            QSIPrep quality metrics
 
 `rsfMRI/`                                  Resting state fMRI data
  -  `1_func_average_connectomes.py`        Visualize fMRI connectomes
  -  `2_isc_calculate_averages.py`          Inter-subject correlation analysis
  -  `3_isc_plot_surface.py`                Visualize ISC results
+ -  `4_extract_descriptives.py`            Inter-subject correlation metrics
   
 `physio/`                                  Physiological data
  -  `1_physio_qc.py`                       Physiological signal QC (PPG, respiration)
